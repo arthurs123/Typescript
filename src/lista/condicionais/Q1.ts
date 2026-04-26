@@ -7,8 +7,14 @@
 let num:number=Number(prompt("Informe um numero: "))
 
 if (num %2==0){
+    console.log("Par")
+}
+if(num%2!=0){
+    console.log("Impar")
+}
+if (num>0){
     console.log("Positivo")
 }
-else if(num%2!=0){
-    console.log("negativo")
+if (num<0){
+    console.log("Negativo")
 }
