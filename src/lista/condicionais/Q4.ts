@@ -4,15 +4,17 @@
 // ● ‘Segundo maior’, caso o segundo seja maior que o primeiro.
 
 
-let numb1:number=Number(prompt("Digite o 1º numero: "))
-let numb2:number=Number(prompt("Digite o 2º numero: "))
+let num1:number=Number(prompt("Digite o 1º numero: "))
+let num2:number=Number(prompt("Digite o 2º numero: "))
 
-if (numb1==numb2){
+if (num1==num2){
     console.log('Numeros iguais')
 }
-else if(numb1>numb2){
+else if(num1>num2){
     console.log('Primeiro maior')
 }
-else if(numb2>numb1){
+else if(num2>num1){
     console.log('Segundo maior')
 }
+
+export{};
