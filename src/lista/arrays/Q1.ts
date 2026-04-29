@@ -12,9 +12,15 @@ let mult=[]
 
 const vetor = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 
-for(i=0; i<length-1;i++){
+for(i=0; i< vetor.length;i++){
     if (vetor[i] %2==0){
-        pares[i]=vetor[i]
+        pares.push(vetor[i])
     }
-    
+     if (vetor[i] %2!=0){
+        impares[i]=vetor[i]
+    }
+    if (vetor[i] %2==0 && vetor[i] %3==0 && vetor[i] %4==0){
+        mult[i]=vetor
+     }
+        
 };
