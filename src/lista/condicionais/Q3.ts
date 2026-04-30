@@ -1,4 +1,5 @@
-// 3. Crie um programa que solicite dois números e simule um menu de uma calculadora:
+export function questao3cond():void{
+    // 3. Crie um programa que solicite dois números e simule um menu de uma calculadora:
 // 1 - Soma
 // 2 - Subtração
 // 3 - Multiplicação
@@ -31,3 +32,8 @@ switch(operacao){
     
 }
 console.log(resultado)
+
+}
+
+
+

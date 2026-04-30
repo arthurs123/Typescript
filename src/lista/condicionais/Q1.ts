@@ -1,4 +1,5 @@
-// 1. Crie um programa que leia um número e informe se ele é:
+export function questao1cond():void{
+    // 1. Crie um programa que leia um número e informe se ele é:
 //  Par ou Ímpar
 //  Positivo ou Negativo
 
@@ -19,4 +20,8 @@ if (num<0){
     console.log("Negativo")
 }
 
-export{};
+}
+
+
+
+

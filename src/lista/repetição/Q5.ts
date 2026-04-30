@@ -1,4 +1,5 @@
-// 5. Analisador de Desempenho de Vendas (Relatório de Equipe)
+export function questao5rep():void{
+    // 5. Analisador de Desempenho de Vendas (Relatório de Equipe)
 // Imagine que você está gerindo uma equipe de 5 vendedores.
 //  Função classificarVenda(valor):
 // o Se valor &lt; 1000: Retorna &quot;Bronze&quot;
@@ -59,5 +60,10 @@ for(i=1; i<=5; i++){
 console.log(`O total de vendas foi de: ${sum}`)
 console.log(`O vendedor com maior venda foi: ${maiorVendedor}, com a venda de: ${maiorvenda}`)
 console.log(`Quantidade de vendedores com ouro: ${countOuro}`)
+}
 
-export{}
+
+
+
+
+

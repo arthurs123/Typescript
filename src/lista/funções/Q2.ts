@@ -1,4 +1,5 @@
-// 2. O IF tem uma estufa e o professor de biologia quer um sistema simples para monitorar a
+export function questao2func():void{
+    // 2. O IF tem uma estufa e o professor de biologia quer um sistema simples para monitorar a
 // temperatura.
 // ● Crie uma função ler_temperatura():
 // o Simula a leitura de um sensor, pedindo ao usuário para digitar uma temperatura
@@ -40,3 +41,7 @@ const emitir_mensagem_alerta=(statusAlerta:boolean):void =>{
 let temperatura = ler_temperatura()
 let alerta = verificar_alerta_temperatura(temperatura)
 emitir_mensagem_alerta(alerta)
+}
+
+
+

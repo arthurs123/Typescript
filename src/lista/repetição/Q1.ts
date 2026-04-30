@@ -1,3 +1,5 @@
+export function questao1rep():void{
+    
 // 1. Crie um programa que peça números até o usuário digitar 0 e mostre:
 //  Quantidade de números digitados
 //  Soma total
@@ -14,4 +16,7 @@ while(num!=0){
 console.log(`Quantidade de numeros: ${countNum}`)
 console.log(`A soma dos numeros: ${sum}`)
 
-export{}
+
+}
+
+

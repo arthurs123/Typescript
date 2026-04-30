@@ -1,3 +1,5 @@
+export function questao2cond():void{
+    
 // 2. Crie um programa chamado Estações. Este programa deve ler uma data e armazenar na
 // variável mês, um número entre 1 e 12, correspondendo a um dos meses do ano. No final,
 // você deve imprimir uma mensagem conforme o exemplo: &quot;A estação do ano correspondente
@@ -30,3 +32,6 @@ if(mes===7 || mes===8 || mes===9){
 if(mes===10 || mes===11 || mes===12){
         console.log(`A estação correspondente ao Mês ${mes} é primavera`)
 }
+}
+
+
