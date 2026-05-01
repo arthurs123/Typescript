@@ -1,4 +1,3 @@
-export function questao3array():void{
     // 3. Gerador de Lista de Compras Personalizada
 // Sua mãe pediu para você fazer uma lista de compras para o supermercado. Ela quer que você possa
 // adicionar itens e a quantidade de cada um.
@@ -7,6 +6,8 @@ export function questao3array():void{
 // ● Permitir que o usuário apresente todos os itens da lista.
 // ● Permitir que o usuário apresente quantos itens há na lista.
 // ● Permitir que o usuário remova itens da lista.
+
+export function questao3array():void{
 
 
 

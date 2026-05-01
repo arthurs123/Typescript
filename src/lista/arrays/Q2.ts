@@ -1,6 +1,4 @@
-export function questao2array():void{
-
-    // 2. Faça um programa que leia um número indeterminado de notas ou -1 para encerrar. Após esta
+  // 2. Faça um programa que leia um número indeterminado de notas ou -1 para encerrar. Após esta
     // entrada de dados, faça o seguinte:
     // a) Mostre a quantidade de notas que foram lidas.
     // b) Exiba todas as notas na ordem em que foram informadas.
@@ -8,6 +6,11 @@ export function questao2array():void{
     // d) Calcule e mostre a soma das notas.
     // e) Calcule e mostre a média das notas.
     // f) Calcule e mostre a quantidade de notas acima da média calculada.
+
+
+export function questao2array():void{
+
+  
 
 
     let notas
@@ -33,10 +36,10 @@ export function questao2array():void{
         }
     }
 
-    console.log(`Notas: ${vetorNota.join(", ")}`)
-    console.log(`Notas inversas: ${vetorNota.reverse()}`)
-    console.log(`Soma das notas: ${sum}`)
-    console.log(`Media: ${media}`)
-    console.log(`Nota maior que a media: ${maiorNota}`)
+    alert(`Notas: ${vetorNota.join(", ")}`)
+    alert(`Notas inversas: ${vetorNota.reverse()}`)
+    alert(`Soma das notas: ${sum}`)
+    alert(`Media: ${media}`)
+    alert(`Nota maior que a media: ${maiorNota}`)
 }
 
