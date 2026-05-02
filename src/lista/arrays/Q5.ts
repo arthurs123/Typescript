@@ -37,6 +37,7 @@ function gerenciar_tarefas(){
         else if(op==3){
             alert(`Tarefas: ${vetor}`)
         }
+        op=Number(prompt("Gerenciador de tarefas: 1-adicionar, 2-marcar como concluídas, 3-mostrar tarefas, 4-sair"))
     }
 }
 gerenciar_tarefas()
