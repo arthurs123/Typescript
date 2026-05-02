@@ -17,8 +17,8 @@ while(num!=-1){
     }
     num=Number(prompt("Digite o numero ou -1 para sair: "))
 }
-console.log(`Pares ${Qpares}`)
-console.log(`Impares ${Qimpares}`)
+alert(`Pares ${Qpares}`)
+alert(`Impares ${Qimpares}`)
 }
 
 

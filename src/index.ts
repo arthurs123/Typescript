@@ -6,10 +6,21 @@ import { questao2array } from "./lista/arrays/Q2.js";
 
 import { questao3array } from "./lista/arrays/Q3.js";
 
+import { questao5array } from "./lista/arrays/Q5.js";
+
+import { questao6array } from "./lista/arrays/Q6.js";
+
+import { questao7array } from "./lista/arrays/Q7.js";
+
+import { questao8array } from "./lista/arrays/Q8.js";
 
 document.getElementById("btnQ1.array")?.addEventListener("click", questao1array)
 document.getElementById("btnQ2.array")?.addEventListener("click", questao2array)
 document.getElementById("btnQ3.array")?.addEventListener("click", questao3array)
+document.getElementById("btnQ5.array")?.addEventListener("click", questao5array)
+document.getElementById("btnQ6.array")?.addEventListener("click", questao6array)
+document.getElementById("btnQ7.array")?.addEventListener("click", questao7array)
+document.getElementById("btnQ8.array")?.addEventListener("click", questao8array)
 
 // condicional //
 
@@ -32,8 +43,11 @@ import { questao1func } from "./lista/funções/Q1.js";
 
 import { questao2func } from "./lista/funções/Q2.js";
 
+import { questao5func } from "./lista/funções/Q5.js";
+
 document.getElementById("btnQ1.func")?.addEventListener("click", questao1func)
-document.getElementById("btnQ1.func")?.addEventListener("click", questao2func)
+document.getElementById("btnQ2.func")?.addEventListener("click", questao2func)
+document.getElementById("btnQ5.func")?.addEventListener("click", questao5func)
 // repetição //
 
 import { questao1rep } from "./lista/repetição/Q1.js";

@@ -32,10 +32,10 @@ const verificar_alerta_temperatura= (temperatura:number):boolean =>{
 
 const emitir_mensagem_alerta=(statusAlerta:boolean):void =>{
     if (statusAlerta){
-        console.log("ALERTA: Temperatura fora da faixa ideal!")
+        alert("ALERTA: Temperatura fora da faixa ideal!")
     }
     else{
-        console.log("Temperatura dentro da faixa normal")
+        alert("Temperatura dentro da faixa normal")
     }
 }
 let temperatura = ler_temperatura()

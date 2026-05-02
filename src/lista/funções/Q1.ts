@@ -9,7 +9,7 @@ const somarAte= (num:number) =>{
     num=Number(prompt("Digite o numero que você deseja somar até: "))
     for(let i=1; i<=num; i++){
         sum+=i
-        console.log(sum)
+        alert(sum)
     }
     
 

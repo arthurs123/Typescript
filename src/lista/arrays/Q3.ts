@@ -28,11 +28,11 @@ let itemRemove
                 }
         }
         else if (escolha==2){
-            console.log(vetor)
+            alert(vetor)
         }
         else if(escolha==3){
             
-            console.log(vetor.length)
+            alert(vetor.length)
         }
         else if(escolha==4){
             remove=String(prompt("Escreva qual item deseja remover: "))
@@ -43,7 +43,7 @@ let itemRemove
             
             }
             else{
-                console.log("Item não encontrado")
+                alert("Item não encontrado")
             }
             
         }

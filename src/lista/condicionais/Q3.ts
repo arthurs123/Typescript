@@ -24,14 +24,14 @@ switch(operacao){
         break
     case "/":
         if (num2%2===0){
-            console.log("Divisão por 0")
+            alert("Divisão por 0")
         }
         resultado=num1/num2
         break
     
     
 }
-console.log(resultado)
+alert(resultado)
 
 }
 

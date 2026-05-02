@@ -9,13 +9,13 @@ let num1:number=Number(prompt("Digite o 1º numero: "))
 let num2:number=Number(prompt("Digite o 2º numero: "))
 
 if (num1==num2){
-    console.log('Numeros iguais')
+    alert('Numeros iguais')
 }
 else if(num1>num2){
-    console.log('Primeiro maior')
+    alert('Primeiro maior')
 }
 else if(num2>num1){
-    console.log('Segundo maior')
+    alert('Segundo maior')
 }
 
 }

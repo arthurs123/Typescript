@@ -57,9 +57,9 @@ for(i=1; i<=5; i++){
     }
 
 }
-console.log(`O total de vendas foi de: ${sum}`)
-console.log(`O vendedor com maior venda foi: ${maiorVendedor}, com a venda de: ${maiorvenda}`)
-console.log(`Quantidade de vendedores com ouro: ${countOuro}`)
+alert(`O total de vendas foi de: ${sum}`)
+alert(`O vendedor com maior venda foi: ${maiorVendedor}, com a venda de: ${maiorvenda}`)
+alert(`Quantidade de vendedores com ouro: ${countOuro}`)
 }
 
 

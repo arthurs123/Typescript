@@ -1,4 +1,4 @@
-export function questao4array():void{
+export function questao5array():void{
     // 5. Organizador de Tarefas Diárias
 // Você quer organizar suas tarefas de casa e da escola para não esquecer nada. Crie uma função
 // chamada gerenciar_tarefas() que não receba argumentos. A função deve:
@@ -31,11 +31,11 @@ function gerenciar_tarefas(){
                 vetor.splice(itemRemove, 1)
             }
             else{
-                console.log("Item não encontrado")
+                alert("Item não encontrado")
             }
         }
         else if(op==3){
-            console.log(`Tarefas: ${vetor}`)
+            alert(`Tarefas: ${vetor}`)
         }
     }
 }

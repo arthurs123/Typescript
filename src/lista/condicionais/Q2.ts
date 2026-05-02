@@ -21,16 +21,16 @@ let mes=0
 mes=Number(prompt("Digite o numero do mês: "))
 
 if(mes===1 || mes===2 || mes===3){
-        console.log(`A estação correspondente ao Mês ${mes} é verão`)
+        alert(`A estação correspondente ao Mês ${mes} é verão`)
 }
 if(mes===4 || mes===5 || mes===6){
-        console.log(`A estação correspondente ao Mês ${mes} é outono`)
+        alert(`A estação correspondente ao Mês ${mes} é outono`)
 }
 if(mes===7 || mes===8 || mes===9){
-        console.log(`A estação correspondente ao Mês ${mes} é inverno`)
+        alert(`A estação correspondente ao Mês ${mes} é inverno`)
 }
 if(mes===10 || mes===11 || mes===12){
-        console.log(`A estação correspondente ao Mês ${mes} é primavera`)
+        alert(`A estação correspondente ao Mês ${mes} é primavera`)
 }
 }
 

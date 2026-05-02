@@ -8,16 +8,16 @@ export function questao1cond():void{
 let num:number=Number(prompt("Informe um numero: "))
 
 if (num %2==0){
-    console.log("Par")
+    alert("Par")
 }
 if(num%2!=0){
-    console.log("Impar")
+    alert("Impar")
 }
 if (num>0){
-    console.log("Positivo")
+    alert("Positivo")
 }
 if (num<0){
-    console.log("Negativo")
+    alert("Negativo")
 }
 
 }

@@ -13,8 +13,8 @@ while(num!=0){
     sum+=num
     num=Number(prompt("Digite o número ou 0 se quiser sair: "))
 }
-console.log(`Quantidade de numeros: ${countNum}`)
-console.log(`A soma dos numeros: ${sum}`)
+alert(`Quantidade de numeros: ${countNum}`)
+alert(`A soma dos numeros: ${sum}`)
 
 
 }
